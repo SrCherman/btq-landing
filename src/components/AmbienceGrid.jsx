@@ -16,9 +16,6 @@ export default function AmbienceGrid() {
     return (
         <section id="ambience" className="py-20 bg-btq-dark px-4">
             <div className="container mx-auto max-w-5xl">
-                <h2 className="text-4xl md:text-5xl font-heading font-bold mb-12 text-center tracking-tighter">
-                    A VIBE DE FOZ
-                </h2>
 
                 <div className="grid grid-cols-2 md:grid-cols-4 grid-rows-2 gap-4 h-[600px]">
                     {images.map((img, idx) => (
